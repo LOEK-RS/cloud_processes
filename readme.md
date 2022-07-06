@@ -1,5 +1,12 @@
 # Remote Sensing processing in Cloud Platforms
 
+Hint: This repositoriy contains a [submodule](https://git-scm.com/book/de/v2/Git-Tools-Submodule) (the gee processes, since google has its own git thing).
+To clone everything you have to use the `--recurse-submodules` flag:
+
+```
+git clone --recurse-submodules git@github.com:LOEK-RS/cloud_processes.git
+```
+
 This repository contains code snippets and workflow suggestions for cloud computing platforms (Google Earth Engine and openEO). The goal is, to provide a user friendly description and modularity of common tasks that are needed to get remote sensing data from the platforms. This usually revolves around the following steps and decisions:
 
 
