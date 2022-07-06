@@ -19,14 +19,14 @@ Processes in GEE are most of the time specific for a particular `ImageCollection
 I suggest, as a naming convention for modular functions we use the name of the `ImageCollection` as a prefix e.g.
 
 ```
-export.S2_SR_maskclouds = function (image) {
+exports.S2_SR_maskclouds = function (image) {
   var scl = image.select('SCL');
   var wantedPixels = scl.gt(3).and(scl.lt(7)).or(scl.eq(1)).or(scl.eq(2));
   return image.updateMask(wantedPixels)
 }
 ```
 
-The `export.` means that we can reuse this function in other scripts by importing the file with `require()`.
+The `exports.` means that we can reuse this function in other scripts by importing the file with `require()`.
 See here for more explanation about this: [Google Earth Engine Code Editor Documentation](https://developers.google.com/earth-engine/guides/playground)
 
 
