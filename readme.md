@@ -1,7 +1,7 @@
 # Remote Sensing processing in Cloud Platforms
 
 Hint: This repositoriy contains a [submodule](https://git-scm.com/book/de/v2/Git-Tools-Submodule) (the gee processes, since google has its own git thing).
-To clone everything you have to use the `--recurse-submodules` flag:
+To clone everything you have to use the `--recurse-submodules` flag. To access these files you need to have the right permission. Please contact me (Marvin) if you want to.
 
 ```
 git clone --recurse-submodules git@github.com:LOEK-RS/cloud_processes.git
@@ -22,7 +22,7 @@ This repository contains code snippets and workflow suggestions for cloud comput
 
 ### Usage
 
-To get access to `gee_processes` in the GEE Code Editor use the following link:
+To get access to `gee_processes` in the GEE Code Editor use the following link. This works without the permission hussle mentioned above.
 [https://code.earthengine.google.com/?accept_repo=users/Ludwigm6/gee_processes](https://code.earthengine.google.com/?accept_repo=users/Ludwigm6/gee_processes)
 
 
