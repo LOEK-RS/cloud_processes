@@ -20,6 +20,13 @@ This repository contains code snippets and workflow suggestions for cloud comput
 
 ## Google Earth Engine
 
+### Usage
+
+To get access to `gee_processes` in the GEE Code Editor use the following link:
+[https://code.earthengine.google.com/?accept_repo=users/Ludwigm6/gee_processes](https://code.earthengine.google.com/?accept_repo=users/Ludwigm6/gee_processes)
+
+
+
 ### Functions
 
 Processes in GEE are most of the time specific for a particular `ImageCollection`.
